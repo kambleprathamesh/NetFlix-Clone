@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+.hero-section {
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/bg.jpg");
+  background-position: center center;
+  background-size: Max(1200px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero-section .main {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+nav .logo {
+  height: 40px;
+  width: 150px;
+  color: red;
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  width: 80vw;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  color: white;
+  width: 5rem;
+  width: 8rem;
+  height: 2rem;
+  margin-right: 1rem;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+  position: relative;
+  z-index: 12;
+}
+.SignBtn {
+  width: 5rem;
+  height: 2rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  z-index: 10;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.8rem;
+  height: 60%;
+  color: white;
+  padding:25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#p2 {
+  font-size: 25px;
+}
+#p3 {
+  font-size: 20px;
+}
+.heading h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 16rem;
+  display:flex;
+  align-items: center;
+}
+
+.input-bar {
+  width: 369px;
+  height: 58px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border: 1px solid rgb(89, 89, 89);
+  border-radius: 4px;
+  padding:1rem
+}
+.start {
+  width: 210px;
+  height: 50px;
+  background-color: red;
+  color: #ffff;
+  font-size: 21px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+}
+.input-bar::placeholder {
+  color: rgb(210, 202, 202);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2rem;
+ 
+}
+hr .breakLine{
+    height:6px;
+    border-width:0;
+    color:rgba(128, 128, 128, 0.675);background-color:rgba(128, 128, 128, 0.64)"
+}
+.advertisment{
+    height:600px;
+    width:100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    text-align:start;
+}
+.AD-BOX1{
+    height:400px;
+    width:590px;
+    /* border:2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: end; */
+    padding:2rem
+}
+.AV{
+  height:420px;
+  width:510px;
+  position:relative;
+  /* margin-right:100px */
+  
+}
+.AV img{
+  height:420px;
+  width:510px;
+  position:relative;
+  z-index: 10;
+
+}
+
+.AV video{
+  height:380px;
+  width:400px;
+  position: absolute;
+  left:68px;
+    /* 
+    top:100px;
+   
+    */
+
+}
+.AD-BOX1 h1{
+    margin-bottom:15px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#text1{  
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#text2{
+    font-size:23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MOBILE{
+  height:380px;
+  width:470px;
+  
+  
+}
+.BOX2{
+  height:440px;
+    width:650px;
+}
+.text3{
+  font-size: 30px;
+}
+#mobile{
+position: relative;
+/* z-index: -1; */
+}
+
+.vertical-block{
+height:104px;
+width:300px;
+border:2px solid white;
+position: absolute;
+top:400px;
+left:220px;
+
+z-index: 10;
+border-radius: 1.2rem;
+border-color: grey;
+background-color: black;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+/* padding: 2rem; */
+}
+.vertical-block img{
+  height:80px;
+}
+.download-video{
+  background:url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+  height:40px;
+  width:40px;
+  background-position: center;
+  background-size: cover;
+}
+#MAC_IMAGE{
+  height:420px;
+  width:510px;
+  position:relative;
+  z-index: 10;
+
+}
+#MACTV_VIDEO{
+  height:280px;
+  width:300px;
+  position: absolute;
+  top:0;
+  left:100px
+}
+.bottom{
+  height:100vh;
+}
+.bottom h1{
+  color:white;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 60px;
+  font-weight: bolder;
+}
+/* .accordian{
+  display: flex;
+  justify-content: center;
+}
+.accordian li{
+  color:#000000;
+  list-style: none;
+  background-color: aliceblue;
+  width:600px;
+  height:200px;
+  padding:2rem;
+ 
+} */
+.faqBox{
+  display: flex;
+  justify-content: space-between;
+ background-color: rgb(77, 76, 76);
+ padding: 24px;
+ color:white;
+ max-width:50vw;
+ margin:34px auto;
+ font-size: 20px;
+}
+#advert {
+  color:white;
+  text-align: center;
+  font-size: 30px;
+ 
+}
+.bottom .input-section{
+  text-align: center;
+  margin-top: 30px;
+}
